@@ -44,7 +44,7 @@ def main():
 	
 	net.initWeights();
 	net.forward(refDataX);
-	print '==============================forward done=============================='
+	print ('==============================forward done==============================')
 	
 	y, yHat, loss = net.computeLoss(refDataY)
 	
